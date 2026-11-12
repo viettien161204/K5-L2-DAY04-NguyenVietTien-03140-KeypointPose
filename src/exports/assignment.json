@@ -1,0 +1,65 @@
+{
+ "mssv": "2A202603140",
+ "ten": "NguyenVietTien",
+ "pool_version": "d04-k5-v2",
+ "cvat_user": "VietTien",
+ "project": "d04-keypoint",
+ "persons": [
+  "000000021235.jpg",
+  "000000194027.jpg",
+  "000000205650.jpg",
+  "000000445187.jpg",
+  "000000493741.jpg",
+  "000000188804.jpg",
+  "000000189365.jpg",
+  "000000324953.jpg",
+  "000000043719.jpg",
+  "000000391222.jpg",
+  "000000007281.jpg",
+  "000000130816.jpg"
+ ],
+ "faces": [
+  "face_362568.jpg",
+  "face_559185.jpg",
+  "face_92028.jpg",
+  "face_264124.jpg",
+  "face_79591.jpg",
+  "face_504911.jpg",
+  "face_294580.jpg",
+  "face_175798.jpg"
+ ],
+ "tasks": {
+  "persons": {
+   "task_id": 15,
+   "job_id": 15,
+   "task_name": "persons-NguyenVietTien"
+  },
+  "faces": {
+   "task_id": 16,
+   "job_id": 16,
+   "task_name": "faces-NguyenVietTien"
+  },
+  "persons-extra": {
+   "task_id": 17,
+   "job_id": 17,
+   "task_name": "persons-extra-NguyenVietTien"
+  },
+  "faces-extra": {
+   "task_id": 18,
+   "job_id": 18,
+   "task_name": "faces-extra-NguyenVietTien"
+  }
+ },
+ "persons_extra": [
+  "000000005294.jpg",
+  "000000337458.jpg",
+  "000000465765.jpg"
+ ],
+ "faces_extra": [
+  "face_274219.jpg",
+  "face_280788.jpg",
+  "face_344941.jpg",
+  "face_507166.jpg",
+  "face_68290.jpg"
+ ]
+}
