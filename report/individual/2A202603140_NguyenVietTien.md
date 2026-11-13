@@ -178,6 +178,9 @@ Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
 ```text
+=== src\exports\NguyenVietTien_bonus_persons.zip (label `person`) ===
+
+=== src\exports\NguyenVietTien_bonus_faces.zip (label `face`) ===
 
 ----- TÓM TẮT (dán vào báo cáo mục 5) -----
 - File person: NguyenVietTien_bonus_persons.zip
@@ -186,12 +189,12 @@ Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
   Cờ v: v=2 78 (51%) · v=1 32 (21%) · v=0 43 (28%)
   num_keypoints trung bình: 12.2
 - File face: NguyenVietTien_bonus_faces.zip
-  Số ảnh: 5 · số skeleton `face`: 9 · mỗi annotation 39 số
-  Skeleton theo ảnh: face_274219=1, face_280788=2, face_344941=2, face_507166=2, face_68290=2
-  Cờ v: v=2 107 (91%) · v=1 2 (2%) · v=0 8 (7%)
-  num_keypoints trung bình: 12.1
-- Ghi chú: 51 điểm v = 0 vẫn mang tọa độ cũ (CVAT 2.x xuất như vậy; chuẩn COCO ghi 0, 0). Không phải lỗi: điểm v = 0 bị bỏ qua khi huấn luyện và khi chấm.
-- Số [LỖI]: 0 · số [CẢNH BÁO]: 9
+  Số ảnh: 5 · số skeleton `face`: 5 · mỗi annotation 39 số
+  Skeleton theo ảnh: face_274219=1, face_280788=1, face_344941=1, face_507166=1, face_68290=1
+  Cờ v: v=2 60 (92%) · v=1 1 (2%) · v=0 4 (6%)
+  num_keypoints trung bình: 12.2
+- Ghi chú: 47 điểm v = 0 vẫn mang tọa độ cũ (CVAT 2.x xuất như vậy; chuẩn COCO ghi 0, 0). Không phải lỗi: điểm v = 0 bị bỏ qua khi huấn luyện và khi chấm.
+- Số [LỖI]: 0 · số [CẢNH BÁO]: 0
 Kết quả: ĐẠT
 ```
 
