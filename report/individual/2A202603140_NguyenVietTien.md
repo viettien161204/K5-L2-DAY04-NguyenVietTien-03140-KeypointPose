@@ -169,16 +169,30 @@ Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 
 ### B1 — 3 ảnh người khó thêm
 
-| Ảnh | Số skeleton | Số người dưới 60 px | Ca khó nhất |
-|---|---:|---:|---|
-| | | | |
-| | | | |
-| | | | |
+| Ảnh                | Số skeleton | Số người dưới 60 px | Ca khó nhất                                               |
+|--------------------|------------:|--------------------:|-----------------------------------------------------------|
+| persons_extra ảnh 1 |           3 |                   3 | ca xa nhất và bị che khuất hầu hết người chỉ có tay, chân |
+| persons_extra ảnh 3 |           3 |                   3 | ca xa nhất và mờ khó phân biệt chân trái, phải            |
+| faces_extra ảnh 1  |           1 |                   1 | miệng có ria dài lên khó phân biệt miệng                  |
 
 Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
 ```text
-(dán ở đây)
+
+----- TÓM TẮT (dán vào báo cáo mục 5) -----
+- File person: NguyenVietTien_bonus_persons.zip
+  Số ảnh: 3 · số skeleton `person`: 9 · mỗi annotation 51 số
+  Skeleton theo ảnh: 000000005294=3, 000000337458=3, 000000465765=3
+  Cờ v: v=2 78 (51%) · v=1 32 (21%) · v=0 43 (28%)
+  num_keypoints trung bình: 12.2
+- File face: NguyenVietTien_bonus_faces.zip
+  Số ảnh: 5 · số skeleton `face`: 9 · mỗi annotation 39 số
+  Skeleton theo ảnh: face_274219=1, face_280788=2, face_344941=2, face_507166=2, face_68290=2
+  Cờ v: v=2 107 (91%) · v=1 2 (2%) · v=0 8 (7%)
+  num_keypoints trung bình: 12.1
+- Ghi chú: 51 điểm v = 0 vẫn mang tọa độ cũ (CVAT 2.x xuất như vậy; chuẩn COCO ghi 0, 0). Không phải lỗi: điểm v = 0 bị bỏ qua khi huấn luyện và khi chấm.
+- Số [LỖI]: 0 · số [CẢNH BÁO]: 9
+Kết quả: ĐẠT
 ```
 
 ### B2 — 5 ảnh khuôn mặt đen trắng / hồng ngoại
